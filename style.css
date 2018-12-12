@@ -1,0 +1,35 @@
+/**
+ * List view
+ */
+
+table.media .column-title .media-icon {
+    background-color: #f2f2f2;
+}
+
+table.media .column-title .media-icon img[src*='.svg']{
+    width: 100%;
+    height: auto;
+}
+
+
+/**
+ * Grid view
+ */
+
+.wp-core-ui .attachments-browser .attachment .thumbnail .centered img.icon {
+    transform: translate(-50%,-50%);
+}
+
+.wp-core-ui .attachment .filename {
+    display: none;   
+}
+
+
+/**
+ * 
+ */
+
+img[src*='.svg']{
+    width: 100%;
+    height: auto;
+}
